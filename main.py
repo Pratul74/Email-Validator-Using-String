@@ -25,13 +25,13 @@ def validate_email():
                         result_label.config(text="Valid Email",fg="green")
     
                 else:
-                    print("Invalid Email!!")
+                    result_label.config(text="Invalid Emaiil!",fg="red")
             else:
-                print("Invalid Email!!")
+                result_label.config(text="Invalid Emaiil!",fg="red")
         else:
-            print("Invalid Email!!")
+            result_label.config(text="Invalid Emaiil!",fg="red")
     else:
-        print("Invalid Email!!")
+        result_label.config(text="Invalid Emaiil!",fg="red")
 
 
 root=tk.Tk()
