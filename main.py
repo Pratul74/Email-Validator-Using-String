@@ -36,8 +36,10 @@ def validate_email():
     else:
         result_label.config(text="Invalid Emaiil!",fg="red")#print out the message for invalid Email
 
-
+#Creating the main tkinter GUI
 root=tk.Tk()
+
+#Giving Title for our tkinter GUI
 root.title("Email Validator")
 root.geometry()
 root.resizable(True, True)
