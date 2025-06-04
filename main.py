@@ -1,6 +1,9 @@
 import tkinter as tk
 from tkinter import messagebox
 
+
+
+#Email Validator Function
 def validate_email():
     ns=nc=nch=0
     if len(email)>=6:
@@ -20,18 +23,18 @@ def validate_email():
                         else:
                             nch=1
                     if ns or nc or nch:
-                        result_label.config(text="Invalid Emaiil!",fg="red")
+                        result_label.config(text="Invalid Emaiil!",fg="red")#print out the message for invalid Email
                     else:
-                        result_label.config(text="Valid Email",fg="green")
+                        result_label.config(text="Valid Email",fg="green")#print out the message for Valid Email
     
                 else:
-                    result_label.config(text="Invalid Emaiil!",fg="red")
+                    result_label.config(text="Invalid Emaiil!",fg="red")#print out the message for invalid Email
             else:
-                result_label.config(text="Invalid Emaiil!",fg="red")
+                result_label.config(text="Invalid Emaiil!",fg="red")#print out the message for invalid Email
         else:
-            result_label.config(text="Invalid Emaiil!",fg="red")
+            result_label.config(text="Invalid Emaiil!",fg="red")#print out the message for invalid Email
     else:
-        result_label.config(text="Invalid Emaiil!",fg="red")
+        result_label.config(text="Invalid Emaiil!",fg="red")#print out the message for invalid Email
 
 
 root=tk.Tk()
