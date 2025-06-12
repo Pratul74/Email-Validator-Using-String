@@ -1,4 +1,7 @@
+#For Creating a Window
 import tkinter as tk
+
+#For displaying the message When User presses the enter
 from tkinter import messagebox
 
 
