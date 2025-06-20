@@ -9,7 +9,10 @@ from tkinter import messagebox
 #Email Validator Function
 def validate_email():
     email=email_entry.get()
-    ns=nc=nch=0
+    ns=0
+    nc=0
+    nch=0
+    
     if len(email)>=6:
         if email[0].isalpha():
             if ("@" in email) and (email.count("@")==1):
